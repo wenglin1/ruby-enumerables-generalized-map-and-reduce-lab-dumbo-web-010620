@@ -22,6 +22,6 @@ def reduce(source_array, start = 0)
   if value != false && value != true
     value += total
   else
-    return false
+    return value
   end
 end
