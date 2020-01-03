@@ -19,5 +19,8 @@ def reduce(source_array, start = 0)
     end
     i += 1
   end
+  if value != false && value != true
+    value += total
+  end
   total
 end
