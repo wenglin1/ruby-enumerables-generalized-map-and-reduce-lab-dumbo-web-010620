@@ -19,4 +19,5 @@ def reduce(source_array, start = 0)
     end
     i += 1
   end
+  total
 end
