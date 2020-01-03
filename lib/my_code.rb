@@ -1,8 +1,8 @@
 def map(source_array)
-  new_array = []
-  row = 0
-  while row <source_array.length do
-    new_array.push(yield(source_array[row]))
+  new_arr = []
+  i = 0
+  while i < source_array.length do
+    new_arr.push(yield(source_array[row]))
     row += 1
   end
   new_array
